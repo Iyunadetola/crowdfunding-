@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+   
+    
+}
+
+
+
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.list ul li{
+    list-style: none;
+    width: 150px;
+    color: #fff;
+}
+.cont .bg-img .desktop{
+    position: absolute;
+
+    
+}
+.nav .logo{
+    color: #fff;
+    position: relative;
+} 
+.herosection{
+   position: relative; 
+   border: 1px solid white;
+   width: 40em;
+   text-align: center;
+   background-color: #fff;
+   margin: auto;
+   margin-top: 17em;
+   
+}
+.herosection .hero1 .m-logo{
+    margin-top: -25px;
+}
+.herosection .hero1 h1{
+    font-size: 20px;
+}
+.herosectionn.hero1 p{
+    font-size: 5px;
+}
+
+.bookmark-btns{
+display: flex;
+justify-content: space-between;
+}
+.bookmark-btns .back-btn .back-pro{
+    width: 12em;
+    height: 3em;
+    border-radius: 15px;
+    color:#fff;
+    background-color: hsl(176, 50%, 47%);
+    border: 0px;
+}
+ .bookmark-btns .ic-bk .icon-b{
+    width: 37px;
+
+
+    /* padding-right: -5em; */
+    
+} 
+.bookmark-btns .ic-bk .bookmark{
+    width: 10em;
+    height: 3em;
+    border-radius: 15px;
+    border: 0px;
+    display: inline-block;
+    /* padding-right: 24.3px; */
+}
+.first{
+    border: 1px solid hsl(0, 10%, 94%);
+    background-color: hsl(0, 10%, 94%);
+    border: none;
+    
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.amount h5{
+    font-size: 25px;
+}
+.amount .am, .amo , .amou{
+    line-height: 0;
+}
+.amount .am, .amo, .amou p{
+    font-size: 10px;
+}
+.vert-line hr{
+    transform: rotate(90deg);
+    border: 1px solid rgb(1, 1, 22);
+    width: 60px;
+    margin-top: 35px;
+}
+.file{
+    width: 600px;
+    margin-bottom: 20px;
+    
+}
+.hero-amount{
+    border: 1px solid #fff;
+    margin-top: 40px;
+    background-color: hsl(0, 10%, 94%);
+}
+.hero-about{
+    border: 1px solid black;
+    background-color: rgb(249, 243, 243);
+    margin-top: 40px;
+    border: none;
+    padding-bottom: 20px;
+}
+.hero-about .about h6{
+    font-size: 16px;
+    padding-top: 20px;
+
+}
+.hero-about .about p{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.hero-bamboo, .hero-black, .hero-mahogany{
+    border: 1px solid hsl(0, 5%, 83%);
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:hsl(0, 10%, 94%) ;
+    margin: 20px;
+
+}
+.bamboo-pledge, .black-pledge, .mahogany-pledge{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bamboo-pledge .bamboo, .black-pledge .black, .mahogany-pledge .mahogany{
+    font-weight: bolder;
+}
+.bamboo-pledge .pledge, .black-pledge .pledgee, .mahogany-pledge .plege{
+    font-weight: bolder;
+    color: rgb(7, 144, 144);
+}
+.hundred-reward, .sixty-reward, .zero-stock{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hundred-reward button, .sixty-reward button, .zero-stock button{
+    width: 9em;
+    height: 2em;
+    border-radius: 15px;
+    background-color:hsl(176, 50%, 47%) ;
+    color: #fff;
+    border: none;
+}
+.hundred-reward h5, .sixty-reward h5{
+    font-size: 16px;
+}
+.hero-m .hero-mahogany{
+    margin-bottom: 20px;
+}
+.hero-m{
+    opacity: 0.4;
+}
+.ic-bk .bookmarkbookmarked{
+    color: hsl(176, 50%, 47%);
+    border: none;
+    font-weight: bolder;
+}
+button{
+    cursor: pointer;
+}
