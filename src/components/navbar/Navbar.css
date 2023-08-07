@@ -21,12 +21,14 @@ body{
 .list ul{
     display: flex;
     justify-content: space-between;
+    color: #fff;
 
 }
+
 .list ul li{
     list-style: none;
     width: 150px;
-    color: #fff;
+    color: aqua;
 }
 .cont .bg-img .desktop{
     position: absolute;
@@ -116,6 +118,9 @@ justify-content: space-between;
     margin-bottom: 20px;
     
 }
+
+
+
 .hero-amount{
     border: 1px solid #fff;
     margin-top: 40px;
@@ -191,4 +196,262 @@ justify-content: space-between;
 }
 button{
     cursor: pointer;
+}
+.about-bgd{
+    position: relative;
+
+    
+
+}.pledge, .pledgee, .plege{
+    border: none;
+}
+
+.pledge-box{
+    width: 25em;
+    text-align: center;
+    border: 1px solid rgb(249, 246, 246);
+    /* padding: 10px; */
+    background-color: #fff;
+    position: relative;
+    top: -59em;
+    margin: auto;
+    
+    
+    
+}
+.pledge-box button{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: hsl(176, 50%, 47%);
+    color: #fff;
+    border: none;
+}
+.pledge-box p{
+    opacity: 0.6;
+}
+.reward-container{
+    border: 1px solid black;
+    width: 33em;
+    height: 45em;
+    margin: auto;
+    position: relative;
+    top: -60em;
+}
+.back-close{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.close{
+    height: 20px;
+}
+.reward-container{
+    padding-left: 30px;
+    padding-right: 30px;
+    top: -100em;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+}
+.support{
+    font-size: 13px;
+}
+form .first, .second, .third, .fourth{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(239, 236, 233);
+    border: none;
+}
+.bsp, .bspp{
+    display: flex;
+}
+.pm{
+padding-left: 15px;
+font-size: small;
+padding-top: 5px;
+color: hsl(176, 50%, 47%);
+}
+.num{
+    padding-left: 170px;
+}
+.pmm{
+    padding-left: 10px;
+    font-size: small;
+    padding-top: 5px;
+    color: hsl(176, 50%, 47%);
+
+}
+.pms{
+    padding-left: 8px;
+    color: hsl(176, 50%, 47%);
+
+}
+.numm{
+    padding-left: 100px;
+}
+.nummm{
+    padding-left: 190px;
+}
+form label button{
+    border: none;
+    font-weight: bold;
+    color: hsl(176, 50%, 47%);
+
+}
+.conta#blur.active{
+    opacity: 0.2;
+    /* pointer-events: none; */
+    /* user-select: none; */
+}
+.second .continueP{
+    display: flex;
+    justify-content: space-between;
+}
+.bamcont{
+    width: 80px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    color: #fff;
+}
+.twentyfive{
+    width: 80px;
+    height: 30px;
+    border-radius: 14px;
+    border: 1px solid hsl(176, 50%, 47%);
+}
+.continueP input{
+    height: 40px;
+    border: none;
+    width: 250px;
+}
+/* .third.toggleContinue.active{
+    display: block;
+} */
+.second .toggleContinue{
+    display: none;
+} 
+.third .toggleContinueThree{
+    display: none;
+}
+
+.reward-container .second .toggleContinue.active{
+    display: block;
+}
+.reward-container .third .toggleContinueThree.active{
+    display: block;
+}
+.reward-container .first .toggleContinueOne.active{
+    display: block;
+}
+
+.toggleContinueOne{
+    text-align: center;
+    display: none;
+}
+
+
+
+.fade, .fourth h6{
+    opacity: 0.3;
+}
+.bspp{
+    opacity: 0.3;
+}
+.sidenav{
+    /* height: 100%; */
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav ul li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .mobile{
+      display: none;
+  }
+
+@media only screen and (max-width: 414px){
+.nav .list{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+.bg-img{
+    display: none;
+}
+.nav .logo{
+    display: none;
+}
+.sideNav{
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+.sideNav h3{
+    color: #fff;
+}
+.sideNav .bgImage{
+ background-repeat: no-repeat;
+ width: 100%;
+}
+.sideNav .bgWord{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.sideNav img{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+ul{
+    position: absolute;
+    left: 0;
+    top: 75px;
+    background-color: #fff;
+    width: 100%;
+    
+}
+ul li{
+    margin: 30px;
+    text-decoration: none;
+    list-style: none;
+
+}
+.herosection{
+    width: 100%;
+}
+.hero-amount .amount{
+    display: block;
+}
+.vert-line{
+    transform: rotate(90deg);
+}
+.file{
+    width: 100%;
+}
+.reward-container{
+    width: 90%;
+}
+
+
 }
